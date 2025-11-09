@@ -18,22 +18,21 @@ git clone https://github.com/JashwanthK-28/GestureControlledMouse.git
 cd GestureControlledMouse
 ````
 
-### 2. Create (optional) virtual environment
+## 2. Create (optional) virtual environment
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 ```
 
-### 3. Install dependencies
+## 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
 
-## ▶️ Usage
+# Usage
 
 Run the main script:
 
@@ -43,74 +42,31 @@ python main.py
 
 Then:
 
-🖐 Bring your hand in front of the webcam
-🖱 Move your hand → cursor moves
-👆 Perform gestures → click/scroll actions
+ Bring your hand in front of the webcam
+ Move your hand → cursor moves
+ Perform gestures → click/scroll actions
 
-Press **Esc** or close the window to exit.
+Press **q** or close the window to exit.
 
----
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 GestureControlledMouse/
 │
-├── main.py             # Main execution script
-├── utils.py            # Gesture logic & helper functions
-├── requirements.txt    # List of dependencies
-└── README.md           # Documentation
+├── main.py             
+├── utils.py            
+├── requirements.txt    
+└── README.md           
 ```
 
----
 
-## 📦 Dependencies
+# Dependencies
 
 * Python 3.x
 * OpenCV
 * MediaPipe
 * PyAutoGUI
 * Numpy
-
-(These are installed automatically from requirements.txt)
-
----
-
-## ⚠️ Limitations
-
-* Requires good lighting conditions
-* Background clutter may reduce accuracy
-* May lag on low-end hardware
-* Gesture detection accuracy depends on camera resolution
-
----
-
-## 🚀 Future Improvements
-
-* Multi-finger and custom gesture support
-* Gesture recording and training
-* GPU acceleration
-* Multi-monitor support
-* UI calibration tool
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-Feel free to modify and use it.
-
----
-
-## 📬 Contact
-
-Created by **Jashwanth Kumar**
-GitHub: [https://github.com/JashwanthK-28](https://github.com/JashwanthK-28)
-
-If you'd like, I can also:
-✅ Add badges
-✅ Add GIF demo
-✅ Auto-format sections
-✅ Add step-by-step usage images
 
 Just tell me!
