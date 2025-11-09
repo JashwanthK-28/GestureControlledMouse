@@ -37,14 +37,14 @@ pip install -r requirements.txt
 Run the main script:
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 Then:
 
  Bring your hand in front of the webcam
- Move your hand → cursor moves
- Perform gestures → click/scroll actions
+ Move your index finger → cursor moves
+ Perform gestures → click/scroll and screenshot actions
 
 Press **q** or close the window to exit.
 
