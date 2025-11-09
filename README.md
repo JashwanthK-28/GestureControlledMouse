@@ -69,4 +69,3 @@ GestureControlledMouse/
 * PyAutoGUI
 * Numpy
 
-Just tell me!
